@@ -69,6 +69,36 @@ fun ingresso(idade: Int)
     {
         println("4) Paga inteira")
     }
-    println("4a) Bem-Vindo ao Mementos")
 
+    println("4a) Bem-Vindo ao Mementos")
+}
+
+// 5
+fun festaDoChopp(idade: Int)
+    {
+        if (idade > 17)
+        {
+            println("5) Pode entrar na fila")
+            if (idade > 59)
+            {
+                println("5a) Prioridade na fila")
+            }
+        }
+        else 
+        {
+            println("5) Não pode entrar")
+        }
+    }
+
+    // 6
+fun funcionario (sim: Boolean): String
+{
+    if (sim)
+    {
+        return "6) Entrada liberada"
+    } 
+    else
+    {
+        return "6) Entrada Proibida"
+    }
 }
